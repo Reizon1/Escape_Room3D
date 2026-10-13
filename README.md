@@ -12,6 +12,15 @@ Docente: Erick Salomon Cespedes Gamarra
 - Santiago
 - Sebastian
 
+### Organización del equipo
+
+| Integrante | Rama principal |
+|---|---|
+| David | Feature_PlayerMovement |
+| Kevin Mollo | Feature_Interaction / Feature_Puzzle |
+| Santiago | Feature_Animation |
+| Sebastian | Feature_Animation |
+
 ## Objetivo
 
 Explorar una habitación, resolver un código, abrir un cofre, obtener una llave y abrir la puerta de salida.
