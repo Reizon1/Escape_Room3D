@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 285433352}
   - component: {fileID: 285433351}
   - component: {fileID: 285433350}
+  - component: {fileID: 285433354}
   m_Layer: 0
   m_Name: Chest
   m_TagString: Untagged
@@ -231,6 +232,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &285433354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285433349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b07a8107a03fe794f94bdd484f991965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestController
+  unlocked: 0
+  animator: {fileID: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -793,6 +808,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1755627671}
   - component: {fileID: 1755627670}
+  - component: {fileID: 1755627672}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -827,6 +843,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1755627672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755627669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd54157b0d9a2974cbb2aa37681f1847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleManager
+  correctCode: 1234
+  maxAttempts: 3
+  chest: {fileID: 285433354}
 --- !u!1001 &37126711611267067
 PrefabInstance:
   m_ObjectHideFlags: 0
