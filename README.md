@@ -19,3 +19,16 @@ Explorar una habitación, resolver un código, abrir un cofre, obtener una llave
 ## Versión de Unity
 
 6000.5.5f1
+
+## Estrategia de ramas
+
+```
+main
+└── Dev
+    ├── Feature_PlayerMovement
+    ├── Feature_Interaction
+    ├── Feature_Animation
+    └── Feature_Puzzle
+```
+
+Se desarrolla en `Feature_*`, se integra primero en `Dev` y solo se pasa a `main` mediante Pull Request.
