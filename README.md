@@ -12,6 +12,12 @@ Docente: Erick Salomon Cespedes Gamarra
 - Santiago
 - Sebastian
 
+## Información del proyecto
+
+- Género: Escape Room en primera persona (3D)
+- Motor: Unity 6 (URP)
+- Control de versiones: Git + GitHub, trabajado desde VS Code
+
 ## Objetivo
 
 Explorar una habitación, resolver un código, abrir un cofre, obtener una llave y abrir la puerta de salida.
